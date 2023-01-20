@@ -17,6 +17,8 @@ const Content = styled.div`
   justify-content: center;
   box-shadow: 0 1px 2px;
   padding: 30px 0;
+  border-radius: 10px;
+  background-color: #fff;
 `;
 
 const Row = styled.div`
@@ -36,12 +38,12 @@ const Button = styled.button`
   padding: 8px;
   font-size: 20px;
   cursor: pointer;
-  background-color: #0081cf;
+  background-color: #8e04f6;
   color: #fff;
   border: none;
   border-radius: 5px;
   &:hover {
-    background-color: #42b3f9;
+    background-color: #be70f9;
   };
 `;
 
